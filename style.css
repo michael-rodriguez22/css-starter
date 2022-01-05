@@ -1,0 +1,82 @@
+/* GENERAL */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  /* adjustable color scheme */
+  /* --light: #ececec;
+  --dark: #282828;
+  --primary: #fce138;
+  --secondary: #024e76;
+  --accent: #39a6b2; */
+  scroll-behavior: smooth;
+}
+
+html {
+  font-size: 100%;
+  height: 100%;
+}
+
+body {
+  background-color: var(--light);
+  height: 100%;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/*  FONT SIZES */
+h1,
+.h1 {
+  font-size: 3rem;
+}
+
+h2,
+.h2 {
+  font-size: 2.5rem;
+}
+
+h3,
+.h3 {
+  font-size: 2rem;
+}
+
+h4,
+.h4 {
+  font-size: 1.5rem;
+}
+
+p,
+.p {
+  font-size: 1rem;
+}
+
+/* MEDIA QUERIES */
+/* Tablets */
+@media screen and (min-width: 481px) {
+  html {
+    font-size: 105%;
+  }
+}
+
+/* Medium Screens */
+@media screen and (min-width: 769px) {
+  html {
+    font-size: 112.5%;
+  }
+}
+/* Large Screens */
+@media screen and (min-width: 1025px) {
+  html {
+    font-size: 125%;
+  }
+}
